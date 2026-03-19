@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 当TextView处于焦点状态时，文本颜色变为红色 -->
+    <item android:state_focused="true" android:color="@color/yellow_500" />
+    <!-- 当TextView处于非焦点状态时，文本颜色变为黑色 -->
+    <item android:color="@color/white" />
+</selector>
